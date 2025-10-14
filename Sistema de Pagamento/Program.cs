@@ -1,7 +1,24 @@
 ﻿using Sistema_de_Pagamento;
 
-Pagamento pagamento = new PagamentoCartaoCredito();
+Console.Write("Deseja efetuar o pagamento via Boleto ou Cartao de crédito? (1 - Boleto | 2 - Cartao de crédito) ");
+var resp = char.Parse(Console.ReadLine());
 
-pagamento.Valor = 100;
+if(resp == '1')
+{
+    Pagamento pagamento2 = new PagamentoBoleto();
 
-pagamento.ProcessarPagamento();
+    Console.Write("Qual o valor? ");
+    var valor = double.Parse(Console.ReadLine());
+    pagamento2.Valor = valor;
+    pagamento2.ProcessarPagamento();
+}
+if(resp == '2')
+{
+    Console.Write("Qual o valor? ");
+    var valor = double.Parse(Console.ReadLine());
+
+    Pagamento pagamento = new PagamentoCartaoCredito();
+    pagamento.Valor = valor;
+    pagamento.ProcessarPagamento();
+}
+
