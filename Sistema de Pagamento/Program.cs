@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Sistema_de_Pagamento;
+
+Pagamento pagamento = new PagamentoCartaoCredito();
+
+pagamento.Valor = 100;
+
+pagamento.ProcessarPagamento();
