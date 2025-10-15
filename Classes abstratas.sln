@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de Pagamento", "Sis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conta Bancaria", "Conta Bancaria\Conta Bancaria.csproj", "{0451FFC8-7009-4039-B3A1-B70F8DE98347}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de Veiculos", "Sistema de Veiculos\Sistema de Veiculos.csproj", "{F7B1026C-C1D9-4C41-B0C7-AA9E17C5F24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de Notificações", "Sistema de Notificações\Sistema de Notificações.csproj", "{D7C378E8-2627-4642-AE5D-D7C68E4CBB68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{0451FFC8-7009-4039-B3A1-B70F8DE98347}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0451FFC8-7009-4039-B3A1-B70F8DE98347}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0451FFC8-7009-4039-B3A1-B70F8DE98347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B1026C-C1D9-4C41-B0C7-AA9E17C5F24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B1026C-C1D9-4C41-B0C7-AA9E17C5F24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B1026C-C1D9-4C41-B0C7-AA9E17C5F24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B1026C-C1D9-4C41-B0C7-AA9E17C5F24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C378E8-2627-4642-AE5D-D7C68E4CBB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C378E8-2627-4642-AE5D-D7C68E4CBB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C378E8-2627-4642-AE5D-D7C68E4CBB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C378E8-2627-4642-AE5D-D7C68E4CBB68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
