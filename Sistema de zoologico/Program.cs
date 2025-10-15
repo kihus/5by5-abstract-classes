@@ -6,33 +6,37 @@ var resp = int.Parse(Console.ReadLine());
 switch (resp)
 {
     case 1:
-        var cachorro = new Cachorro();
 
-        Console.WriteLine("Nome: ");
-        cachorro.SetNome(Console.ReadLine());
+        Console.Write("Nome: ");
+        var nome = Console.ReadLine();
 
-        Console.WriteLine("Idade: ");
-        cachorro.SetIdade(int.Parse(Console.ReadLine()));
+        Console.Write("Idade: ");
+        var idade = int.Parse(Console.ReadLine());
+
+        var cachorro = new Cachorro(nome, idade);
+        Console.WriteLine(nome);
         cachorro.EmitirSom();
         break;
     case 2:
-        var gato = new Cachorro();
+        Console.Write("Nome: ");
+        nome = Console.ReadLine();
 
-        Console.WriteLine("Nome: ");
-        gato.SetNome(Console.ReadLine());
+        Console.Write("Idade: ");
+        idade = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Idade: ");
-        gato.SetIdade(int.Parse(Console.ReadLine()));
+        Console.WriteLine(idade);
+        var gato = new Gato(nome, idade);
         gato.EmitirSom();
         break;
     case 3:
-        var leao = new Cachorro();
+        Console.Write("Nome: ");
+        nome = Console.ReadLine();
 
-        Console.WriteLine("Nome: ");
-        leao.SetNome(Console.ReadLine());
+        Console.Write("Idade: ");
+        idade = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Idade: ");
-        leao.SetIdade(int.Parse(Console.ReadLine()));
+        var leao = new Leao(nome, idade);
+        Console.WriteLine(leao);
         leao.EmitirSom();
         break;
 }
